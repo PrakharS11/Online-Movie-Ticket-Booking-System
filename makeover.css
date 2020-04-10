@@ -1,0 +1,209 @@
+
+h2{color: #000000;}
+p{color: #262020;}
+
+.level1
+{
+width:100%; 
+    color: #ffffff;
+}
+
+.he {
+width:100%;
+    padding-left: 27px;
+background-color:rgba(232, 28, 59, 0.9);
+font-family:monospace;
+outline-color:azure; 
+}
+    
+
+
+.level2 {
+width:100%;
+}    
+    
+    
+
+
+
+.level3
+{
+   color: #ffffff;  
+}
+
+
+
+.level3a 
+{border: 5px;
+    border-bottom-style: groove;
+    border-color: #f8f8f8;
+    padding-top: 20px;
+width:30%;
+float: left;
+background-color: rgb(240, 240, 240);
+}
+
+.level3b 
+{
+    padding-left: 60px;
+ width: 70%;
+    float: right;
+    background-color: rgb(240, 240, 240);
+
+}
+                   
+
+
+
+
+ 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+.container {
+  position: relative;
+  display: none;
+     bottom: 50%;
+    padding-top: 225px;
+    padding-bottom: 225px;
+  left: 24%;
+    
+    top: 2px
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 33.333%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+    background-image:url("img17.jpg");
+background-repeat:no-repeat;
+background-position:center;
+background-attachment:fixed;
+}
+
+#Home {background-color: rgba(157, 101, 101, 0.85);}
+#Contact {background-color: rgba(103, 103, 129, 0.85);}
+#About {background-color: rgba(162, 118, 38, 0.83);}
+
+
+
+
+
+
+
+
+
+
+
+
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
+
+
+
+
+
+
+
+
+

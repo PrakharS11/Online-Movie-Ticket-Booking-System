@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BookMyShow</title>
+<link rel="stylesheet" type="text/css" href="makeover.css">   
+</head>
+<body>
+<div class="level1">    
+    
+<div class="he"> 
+    <a href="https://in.bookmyshow.com" target="_blank"> <img src="image.png" alt="Lights" style="width:11%" onclick="myFunction(this);"> </a>
+ </div>
+    
+    
+    
+    
+    
+    
+    
+    
+<div class="level2"> 
+ 
+<button class="tablink" onclick="openPage('Home', this, 'rgba(235, 53, 81, 0.9)')">Home</button>
+<button class="tablink" onclick="openPage('Contact', this, 'rgba(235, 53, 81, 0.9)')">Contact</button>
+<button class="tablink" onclick="openPage('About', this, 'rgba(235, 53, 81, 0.9)')">About</button>
+
+<div id="Home" class="tabcontent">
+  <h3>Home</h3>
+ 
+   <h2> <p>Home is where the heart is..</p><p>Enjoy events from the comfort of your home</p></h2>
+</div>
+
+<div id="Contact" class="tabcontent">
+  <h3>Contact</h3>
+    <p>Big Tree Entertainment Private Limited Ground Floor, </p><p>Wajeda House, Gulmohar Cross Road No. 7,</p><p> Juhu Scheme, Mumbai, Maharashtra - 400049</p>
+</div>
+
+<div id="About" class="tabcontent">
+  <h3>About</h3>
+    <p>The Three Musketeers</p>
+<p>Picture What happens when 3 long-time friends go holidaying together in South Africa?</p><p> The seed of a BigTree is planted. A company is planned, from roots to fruits.</p><p> Soon after the Eureka moment, C.E.O. Ashish Hemrajani quits his job at JWT,</p><p> Co-Founder Parikshit Dar takes over Technology, and Co-Founder Rajesh Balpande takes over Finance...</p>
+</div>
+
+
+    
+<script>
+function openPage(pageName,elmnt,color) {
+var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+  tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+  tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+  }
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>  
+       
+    
+</div>
+    
+    
+    
+    
+
+    
+    
+    
+<div class="level3">      
+    
+<div class="level3b">
+    
+<div style="text-align:center">
+     <h2>movies</h2>
+</div>
+
+<!-- The four columns -->
+<div class="row">
+  
+  <div class="column">
+    <img src="img1.jpg"  style="width:50%" onclick="myFunction(this);">
+  </div>
+ 
+    <div class="column">
+    <img src="img2.jpg"  style="width:50%" onclick="myFunction(this);">
+  </div>
+
+    <div class="column">
+    <img src="img3.jpg" style="width:50%" onclick="myFunction(this);">
+  </div>
+   
+    <div class="column">
+    <img src="img4.jpg"  style="width:50%" onclick="myFunction(this);">
+  </div>
+    </div>
+    
+    
+    <div class="row">
+   
+        <div class="column">
+    <img src="img5.jpg"  style="width:50%" onclick="myFunction(this);">
+  </div>
+   
+        <div class="column">
+    <img src="img6.jpg"  style="width:50%" onclick="myFunction(this);">
+  </div>
+  
+        <div class="column">
+    <img src="img7.jpg"  style="width:50%" onclick="myFunction(this);">
+  </div>
+    
+        <div class="column">
+    <img src="img8.jpg"  style="width:50%" onclick="myFunction(this);">
+  </div>
+    </div>
+    
+        
+       <div class="row"> 
+       
+           <div class="column">
+    <img src="img9.jpg"  style="width:50%" onclick="myFunction(this);">
+  </div>
+  
+           <div class="column">
+    <img src="img10.jpg"  style="width:50%" onclick="myFunction(this);">
+  </div>
+   
+           <div class="column">
+  <img src="img11.jpg"  style="width:50%" onclick="myFunction(this);">
+  </div>
+    
+           <div class="column">
+    <img src="img12.jpg"  style="width:50%" onclick="myFunction(this);">
+  </div>
+    </div>
+           
+         <div class="row">  
+         
+             <div class="column">
+    <img src="img13.jpg"  style="width:50%" onclick="myFunction(this);">
+  </div>
+    
+             <div class="column">
+    <img src="img14.jpg"  style="width:50%" onclick="myFunction(this);">
+  </div>
+   
+             <div class="column">
+    <img src="img15.jpg"  style="width:50%" onclick="myFunction(this);">
+  </div>
+   
+             <div class="column">
+    <img src="img16.jpg"  style="width:50%" onclick="myFunction(this);">
+  </div>
+             
+             
+</div>
+</div>
+    
+    
+    
+    
+    
+     
+<div class="level3a">
+
+<button id="abc1" type="button">Date</button>
+<input type="date" onclick="abc1()">
+<script>
+function abc() 
+{
+document.getElementById("abc1").innerHTML ="done";
+}
+</script>
+<br>
+    
+<button type="button">Time</button>
+<input type="time"   value="abc1()">
+<script>
+function abc() 
+{
+document.getElementById("abc1").innerHTML ="done";
+}
+</script>
+        
+    
+    
+    
+    
+    
+    <div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:50%"  >
+        <input type="button" onclick="alert('Hello World!')" value="Click Me!">
+  <div id="imgtext"></div>
+</div><script>
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
+</script>
+ </div>
+</div>
+</div>   
+    
+    
+    
+    
+</body>   
+</html>
